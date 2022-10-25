@@ -15,12 +15,12 @@ body {
 
 #nav {
     width: 100vw;
-    height: 75px;
+    height: 10vh;
     background: white;
-    opacity: 0.8;
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0.85;
 }
 
 #profile {
@@ -36,4 +36,58 @@ body {
     font-size: 18px;
     font-weight: 600;
     font-family: '楷体', 'Times New Roman', Times, serif;
+}
+
+#main {
+    width: 95vw;
+    height: 80vh;
+    margin: auto;
+    margin-top: 5vh;
+    background-color: white;
+    border-radius: 5px;
+    opacity: 0.85;;
+}
+
+#search-bar {
+    width: 85vw;
+    position: absolute;
+    margin: 5vh 5vw;
+    height: 10vh;
+    background: #5c67de;
+    opacity: 1;
+    border-radius: 5px;
+}
+
+#input-bar {
+    text-indent: 10px;
+    width: 60vw;
+    position: absolute;
+    margin-top: 2.5vh;
+    margin-left: 3vw;
+    height: 4vh;
+    background: white;
+    opacity: 1;
+    border: 3px solid #ccc; 
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    
+}
+
+#input-bar:focus{
+    border-color: #2094f3;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+}
+
+#search-icon {
+    width: 4vh;
+    height: 4vh;
+    margin-top: 3vh;
+    margin-left: 75vw;
+    position: absolute;
 }
